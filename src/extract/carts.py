@@ -14,5 +14,5 @@ def fetch_carts(url):
         print(f"Unexpected Error: {e}")
 
 
-url = 'https://fakestoreapi.com/carts'
-fetch_carts(url)
+# url = 'https://fakestoreapi.com/carts'
+# fetch_carts(url)

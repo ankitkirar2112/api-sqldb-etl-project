@@ -13,6 +13,4 @@ def fetch_users(url):
     except req.RequestException as e:
         print(f"Unexpected Error: {e}")
 
-url = 'https://fakestoreapi.com/users'
-fetch_users(url)
     
