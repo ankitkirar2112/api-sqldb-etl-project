@@ -1,0 +1,40 @@
+
+2026-02-27 10:48:01,194 - product_extract - INFO - Product data extraction step started
+2026-02-27 10:48:01,194 - product_extract - INFO - API URL : https://fakestoreapi.com/products
+2026-02-27 10:48:01,194 - product_extract - INFO - Hitting the API...
+2026-02-27 10:48:01,644 - product_extract - DEBUG - API response with Status Code : 200
+2026-02-27 10:48:01,644 - product_extract - DEBUG - Extrected 20 records from Product API 
+2026-02-27 10:48:01,644 - product_extract - INFO - Product data extraction step finished
+2026-02-27 10:48:04,849 - product_extract - INFO - Product data extraction step started
+2026-02-27 10:48:04,861 - product_extract - INFO - API URL : https://fakestoreapi.com/products
+2026-02-27 10:48:04,861 - product_extract - INFO - Hitting the API...
+2026-02-27 10:48:05,335 - product_extract - DEBUG - API response with Status Code : 200
+2026-02-27 10:48:05,335 - product_extract - DEBUG - Extrected 20 records from Product API 
+2026-02-27 10:48:05,335 - product_extract - INFO - Product data extraction step finished
+2026-02-27 10:48:37,155 - product_extract - INFO - Product data extraction step started
+2026-02-27 10:48:37,155 - product_extract - INFO - API URL : https://fakestoreapi.com/product
+2026-02-27 10:48:37,155 - product_extract - INFO - Hitting the API...
+2026-02-27 10:48:37,692 - product_extract - DEBUG - API response with Status Code : 404
+2026-02-27 10:48:37,692 - product_extract - WARNING - Unexpected status code received: 404
+2026-02-27 10:48:37,694 - product_extract - ERROR - HTTP Error occured: 404 Client Error: Not Found for url: https://fakestoreapi.com/product | Status code: 404
+2026-02-27 10:48:37,694 - product_extract - INFO - Product data extraction step finished
+2026-02-27 10:50:55,372 - product_extract - INFO - Product data extraction step started
+2026-02-27 10:50:55,372 - product_extract - INFO - API URL : https://fakestoreapi.com/product
+2026-02-27 10:50:55,372 - product_extract - INFO - Hitting the API...
+2026-02-27 10:50:55,824 - product_extract - DEBUG - API response with Status Code : 404
+2026-02-27 10:50:55,824 - product_extract - WARNING - Unexpected status code received: 404
+2026-02-27 10:50:55,824 - product_extract - ERROR - HTTP Error occured: 404 Client Error: Not Found for url: https://fakestoreapi.com/product | Status code: 404
+2026-02-27 10:50:55,824 - product_extract - ERROR - 404 Client Error: Not Found for url: https://fakestoreapi.com/product
+Traceback (most recent call last):
+  File "C:\Users\ankit\OneDrive\Documents\api-sqldb-etl-project\src\extract\product.py", line 29, in extract_data_api
+    response.raise_for_status()
+  File "C:\Users\ankit\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://fakestoreapi.com/product
+2026-02-27 10:50:55,858 - product_extract - INFO - Product data extraction step finished
+2026-02-27 10:54:04,698 - product_extract - INFO - Product data extraction step started
+2026-02-27 10:54:04,698 - product_extract - INFO - API URL : https://fakestoreapi.com/products
+2026-02-27 10:54:04,698 - product_extract - INFO - Hitting the API...
+2026-02-27 10:54:05,242 - product_extract - DEBUG - API response with Status Code : 200
+2026-02-27 10:54:05,242 - product_extract - DEBUG - Extrected 20 records from Product API 
+2026-02-27 10:54:05,242 - product_extract - INFO - Product data extraction step finished
